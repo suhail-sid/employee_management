@@ -4,4 +4,14 @@ from .models import Employee
 class EmployeeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Employee
-        fields = ['id', 'name', 'email', 'department', 'role', 'date_joined']
+        fields = '__all__'
+
+    def validate_email(self, value):
+        if Employee.objects.filter(email=value).exists():
+            raise serializers.ValidationError("This email is already in use.")
+        return value
+
+    def validate_name(self, value):
+        if not value.strip():
+            raise serializers.ValidationError("Name should not be empty.")
+        return value
