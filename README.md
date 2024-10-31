@@ -25,11 +25,11 @@ The Employee Management API is designed to facilitate the management of employee
 3.2.1. Clone the Repository:
 
    
-   git clone <repository_url>
+   git clone https://github.com/suhail-sid/employee_management
    cd employee_management
    
 
-3.2.2. Set up Virtual Environment:
+3.2.2. Set up Virtual Environment: (if applicable)
 
    
    python -m venv venv
@@ -270,11 +270,12 @@ The test suite covers:
 
 7. Troubleshooting
 
-If you encounter issues:
+	If you encounter issues:
 
-1. Authentication Failure: Check token validity and ensure it's included in the Authorization header.
-2. Database Issues: Ensure migrations are applied with 'python manage.py migrate'.
-3. Invalid Endpoints: Verify that the API URLs in requests match the documentation exactly.
+	1. Authentication Failure: Check token validity and ensure it's included in the Authorization header.
+	2. Database Issues: Ensure migrations are applied with 'python manage.py migrate'.
+	3. Invalid Endpoints: Verify that the API URLs in requests match the documentation exactly.
+
 
 8. Summary
 
