@@ -122,8 +122,8 @@ The Employee Management API is designed to facilitate the management of employee
 
   JSON
   {
-    "name": "John Doe",
-    "email": "john.doe@example.com",
+    "name": "Habot Connect",
+    "email": "connecthr@habot.com",
     "department": "HR",
     "role": "Manager"
   }
