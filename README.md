@@ -25,7 +25,7 @@ The Employee Management API is designed to facilitate the management of employee
 3.2.1. Clone the Repository:
 
    
-   git clone <[repository_url](https://github.com/suhail-sid/employee_management)>
+   git clone https://github.com/suhail-sid/employee_management
    cd employee_management
    
 
