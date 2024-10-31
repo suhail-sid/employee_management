@@ -270,11 +270,11 @@ The test suite covers:
 
 7. Troubleshooting
 
-If you encounter issues:
+	If you encounter issues:
 
-1. Authentication Failure: Check token validity and ensure it's included in the Authorization header.
-2. Database Issues: Ensure migrations are applied with 'python manage.py migrate'.
-3. Invalid Endpoints: Verify that the API URLs in requests match the documentation exactly.
+	1. Authentication Failure: Check token validity and ensure it's included in the Authorization header.
+	2. Database Issues: Ensure migrations are applied with 'python manage.py migrate'.
+	3. Invalid Endpoints: Verify that the API URLs in requests match the documentation exactly.
 
 
 8. Summary
