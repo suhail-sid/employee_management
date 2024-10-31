@@ -276,6 +276,7 @@ If you encounter issues:
 2. Database Issues: Ensure migrations are applied with 'python manage.py migrate'.
 3. Invalid Endpoints: Verify that the API URLs in requests match the documentation exactly.
 
+
 8. Summary
 
 The Employee Management API implements RESTful practices, CRUD operations, and secure access with JWT. It features a modular design, comprehensive error handling, and scalability for small to medium-sized teams.
